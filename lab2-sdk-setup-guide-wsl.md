@@ -108,7 +108,13 @@ You will fins the status  of the device on bus 2-8 has changed:
 
 which means it is successfully attached to our WSL.
 
-Then, in WSL, using `screen` to monitor the output from RP2040:
+After attaching the USB devices, we could use the command belows to check the port mounted on WSL:
+
+```shell
+ls /dev/ttyACM*
+```
+
+Then using `screen` to monitor the output from RP2040 by assing the port on WSL(On my WSL it is `ttyACM0`):
 
 ```bash
 sudo screen /dev/ttyACM0 115200
