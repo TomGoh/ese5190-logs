@@ -230,7 +230,7 @@ make -j4
 
 After CMake finishing the process, there would be a `.uf2` file in the directory. Copy it from the WSL folder to the RP2040 connected as a USB device. To connect the RP2040 in USB mode, you should press the boot button when plugging into the USB port or holding the boot button after connected and then press reset button. Drag the `.uf2` file into the RP2040 USB device in Windows, then the USB drive would disappear from the File Explorer. 
 
-Then follow the guide in the [previous section](#Connect RP2040 to WSL) of this guide to connect it to WSL, you could see the output of Hello World in the Terminal:
+Then follow the guide in the [previous section](#connect-rp2040-to-wsl) of this guide to connect it to WSL, you could see the output of Hello World in the Terminal:
 
 ![image-20221010163642601](assets/image-20221010163642601.png)
 
