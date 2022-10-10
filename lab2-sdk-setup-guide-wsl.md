@@ -86,7 +86,7 @@ usbipd wsl --list
 
 the possible output could be as follows:
 
-![image-20221010151127066](.\assets\image-20221010151127066.png)
+![image-20221010151127066](assets\image-20221010151127066.png)
 
 The **BUSID** would be used to recognized the port of the devices, and the **STATE** indicated whether the device is attached to WSL or not. Among all devices listed above, the device on bus `2-8` is the RP2040 to be attached.
 
@@ -104,7 +104,7 @@ usbipd wsl list
 
 You will fins the status  of the device on bus 2-8 has changed:
 
-![image-20221010151421548](.\assets\image-20221010151421548.png)
+![image-20221010151421548](assets\image-20221010151421548.png)
 
 which means it is successfully attached to our WSL.
 
@@ -226,7 +226,7 @@ After CMake finishing the process, there would be a `.uf2` file in the directory
 
 Then follow the guide in the [previous section](#Connect RP2040 to WSL) of this guide to connect it to WSL, you could see the output of Hello World in the Terminal:
 
-![image-20221010163642601](.\assets\image-20221010163642601.png)
+![image-20221010163642601](assets\image-20221010163642601.png)
 
 
 
