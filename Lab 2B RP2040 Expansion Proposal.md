@@ -4,7 +4,9 @@
 
 First, giving a glance on the LED lit up through GPIO:
 
-<img src="assets\ezgif-3-0d3b8d071d.gif" width=25% height=25% />
+<p align="center">
+    <img src="assets\ezgif-3-0d3b8d071d.gif" width=25% height=25% />
+</p>
 
 By assigning the GPIO port and connect the cable to the corresponding port on board can we light the LED up.
 
