@@ -2,7 +2,7 @@
 
 ## Light up LED through GPIO
 
-First, giving a glance on the LED lit up through GPIO:
+First, taking a glance on the LED lit up through GPIO:
 
 <p align="center">
     <img src="assets\ezgif-3-0d3b8d071d.gif" width=25% height=25% />
