@@ -16,12 +16,10 @@ The PIO and GPIO ports on the RP2040 give us opportunities to communicate with s
 
 First, we find some speakers, whose model is AST-03208MR-R, and some 7-Segment Displays with model number 5641AS, which could be used with the combination of the input from RP2040. 
 
-
-
-<center>
+<p align="center">
     <img src="assets\speaker.jpg" width=25% height=25% />
     <img src="assets\display.jpg" width=25% height=25% />
-</center>
+</p>
 
 In our proposal, the RP2040 would be responsible for receiving input from a serial input, for example, from the keyboard from a PC or Mac, and converting the input into music scales, for example, pressing key 1 represents the first music scale. And the RP2040 would also be responsible to use communication protocols to transfer the music scales to the speaker and also display the current scale playing on the 7-segment displays.
 
