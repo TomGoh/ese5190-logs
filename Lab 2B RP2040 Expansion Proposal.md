@@ -16,6 +16,12 @@ The PIO and GPIO ports on the RP2040 give us opportunities to communicate with s
 
 First, we find some speakers, whose model is AST-03208MR-R, and some 7-Segment Displays with model number 5641AS, which could be used with the combination of the input from RP2040. 
 
+![](assets/speaker.jpg | width=100)
+
+![](assets/display.jpg | width=100)
+
+
+
 <center>
     <img src="assets\speaker.jpg" style="zoom: 33%;" />
     <img src="assets\display.jpg" style="zoom:33%;" />
